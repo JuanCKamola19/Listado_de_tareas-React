@@ -1,12 +1,12 @@
 import "./App.css";
-import { Menu } from "./components/Menu";
+import { Menu } from "./componentes/Menu";
 import { About } from "./pages/About";
 import { Task } from "./pages/Task1";
 import { Home } from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react";
 import { Theme } from "./tema";
-import YourComponent from "./components/Oscuro";
+import YourComponent from "./componentes/Oscuro";
 
 function App() {
   return (
