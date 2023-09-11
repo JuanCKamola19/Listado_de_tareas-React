@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
-function Menu() {
+export function Menu() {
   return (
     <nav>
       <ul className="menu">
         <li>
           <Link to="/" className="menuL">
-            Home
+            Home /
           </Link>
           <Link to="/about" className="menuL">
-            About
+            About / 
           </Link>
           <Link to="/task" className="menuL">
             Task
@@ -19,4 +19,3 @@ function Menu() {
     </nav>
   );
 }
-export default Menu;
