@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export function Menu() {
+function Menu() {
   return (
     <nav>
       <ul className="menu">
@@ -19,3 +19,4 @@ export function Menu() {
     </nav>
   );
 }
+export default Menu;
